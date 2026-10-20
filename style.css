@@ -6,15 +6,14 @@
 
 body{
     font-family:Arial, sans-serif;
-    background:#f5f5f5;
-    color:#222;
+    background:#533621;
+    color:#f5efe6;
 }
 
 header{
-    background:white;
+    background:#6b4830;
     text-align:center;
     padding:40px 20px;
-    box-shadow:0 2px 10px rgba(0,0,0,0.1);
 }
 
 header h1{
@@ -27,15 +26,15 @@ header h1{
 }
 
 .hero h2{
+    font-size:42px;
     margin-bottom:15px;
-    font-size:40px;
 }
 
 .projects{
     width:90%;
     max-width:1200px;
     margin:auto;
-    padding:40px 0;
+    padding:50px 0;
 }
 
 .projects h2{
@@ -50,10 +49,14 @@ header h1{
 }
 
 .project-card{
-    background:white;
+    background:#6b4830;
     padding:25px;
     border-radius:15px;
-    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+    transition:0.3s;
+}
+
+.project-card:hover{
+    transform:translateY(-5px);
 }
 
 .project-card h3{
@@ -61,22 +64,23 @@ header h1{
 }
 
 .project-card p{
+    color:#e7d8c6;
     margin-bottom:20px;
-    color:#555;
 }
 
 .project-card a{
     display:inline-block;
+    background:#f5efe6;
+    color:#533621;
     text-decoration:none;
-    background:black;
-    color:white;
     padding:10px 18px;
     border-radius:8px;
+    font-weight:bold;
 }
 
 footer{
     text-align:center;
     padding:40px;
-    background:white;
+    background:#6b4830;
     margin-top:50px;
 }
