@@ -9,6 +9,10 @@ body{
     background:#533621;
     color:#f5efe6;
 }
+h1{
+    font-size:60px;
+    letter-spacing:2px;
+}
 
 header{
     background:#6b4830;
