@@ -58,6 +58,7 @@ header h1{
     padding:25px;
     border-radius:15px;
     transition:0.3s;
+    text-align:center;
 }
 
 .project-card:hover{
